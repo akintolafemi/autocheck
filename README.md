@@ -24,11 +24,11 @@
 
 ## Project Name
 
-AI-Blog
+AUTOCHECK-API
 
 ## Description
 
-This project is built using [Nest](https://github.com/nestjs/nest) [Prisma Client](https://www.prisma.io) as the database ORM. The chosen database is MySQL, and user authentication is handled with JWT using the RS256 algorithm with private and public keys
+This project is built using [Nest](https://github.com/nestjs/nest) [TypeORM](https://typeorm.io) as the database ORM. The chosen database is SQLite, and user authentication is handled with JWT using the RS256 algorithm with private and public keys
 
 ## Getting Started
 
@@ -38,12 +38,11 @@ To get a local copy of the project up and running, follow these simple steps.
 
 - Node.js
 - npm or yarn
-- MySQL
 
 ## Clone Repo
 
 ```bash
-$ git clone https://github.com/akintolafemi/ai-blog.git
+$ git clone https://github.com/akintolafemi/autocheck.git
 ```
 
 ## Set up Environment
@@ -54,12 +53,6 @@ Expected environment variables are in file named env
 
 ```bash
 $ npm install
-```
-
-## Prisma client setup
-
-```bash
-$ npx prisma db push && npx prisma generate
 ```
 
 ## Running the app
@@ -101,5 +94,3 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
-# autocheck
-# autocheck
